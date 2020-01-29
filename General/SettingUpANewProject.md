@@ -196,17 +196,13 @@ In newly opened window add name; description and README if you choose. You can a
 
 ![GitHub, new repository creation form](SettingUp_CreateNewRepo.png)
 
-## Step 7. Load the repository into your image
+## Step 7. Create the repository into your image
 
-## Step 8. Create an src/ folder and add metadata to your repository
+To create the repository in Pharo image you need open Iceberg 
 
-It is a good practice to put all your source packages into a separate folder, usually called `src/`. This ensures that as the number of packages grows, people will not have to scroll a lot to see README. It also makes repository structure cleaner because source code is separated from documentation, licence, etc. You can navigate into the working directory of your repository and create the `src/` folder manually or execute the following line in your Playground to have Pharo create the folder for you:
+## Step 8. Load packages into your repository
 
-```Smalltalk
-(FileLocator localDirectory / 'iceberg' / '<userName>' / '<projectName>' / 'src') ensureCreateDirectory 
-```
-
-## Step 9. Add packages and do the first commit
+## Step 9. Add remote to the repository and do first commit
 
 ## Step 10. Set up the continuous integration (CI)
 
